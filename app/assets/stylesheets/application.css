@@ -13,3 +13,86 @@
  *= require_tree .
  *= require_self
  */
+body {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: helvetica;
+	font-weight: 300;
+	text-align: center;
+	color:white;
+	padding: 0;
+
+}
+
+
+
+#wrapper1 {
+	display: block;
+	background-color: rgb(236,207,71);
+	text-align: center;
+	width: 100%;
+	padding: 1px;
+}
+
+.list1 {
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.block {
+	display: inline-block;
+	width: 200px;
+	margin: 10px auto;
+	text-align: right;
+}
+
+.block p {
+	display: inline;
+	position: relative;
+	top: -30px;
+	font-size: 1.2em;
+
+}
+
+
+
+img {
+	width: auto;
+	height: 70px;
+}
+
+
+#wrapper2 {
+	display: block;
+	background-image: url("Automat.jpg");
+	background-color: black;
+	background-repeat: repeat;
+	background-attachment: bottom;
+	background-position: center;
+	background-size: 330px 500px;
+	padding: 20px;
+
+}
+h1 {
+	display: block;
+}
+.button {
+	cursor: pointer;
+	width: 10em;
+	height: 2.5em;
+	line-height: 0.5em;
+	border: 1px solid white;
+	color:white;
+	text-align: center;
+	margin: 50px auto;
+	-webkit-box-shadow: 0 0px 5px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0px 5px rgba(0,0,0,1);
+	box-shadow: 0 0px 5px rgba(0,0,0,1);
+}
+
+.button:hover {
+	color:black;
+	background-color: white;
+}
