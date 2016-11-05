@@ -14,7 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(function(){
-	// var counter = 
-	// $('#waiting_counter').text('21')
-});
