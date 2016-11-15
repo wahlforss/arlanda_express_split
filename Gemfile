@@ -31,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'nokogiri', '~> 1.6', '>= 1.6.8.1'
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
+gem 'whenever', require: false
 
 
 
