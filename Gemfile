@@ -32,6 +32,12 @@ gem 'jbuilder', '~> 2.5'
 gem 'nokogiri', '~> 1.6', '>= 1.6.8.1'
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
 gem 'whenever', require: false
+gem 'bootstrap', '~> 4.0.0.alpha5'
+gem 'sweetalert2'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 
 
 
