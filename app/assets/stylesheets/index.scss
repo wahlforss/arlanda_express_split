@@ -1,0 +1,115 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body, html {
+    height:100%;
+    margin:0px auto;
+    padding:0px auto;
+    color:white;
+    font-family: helvetica;
+    text-align: center;
+}
+
+#wrapper1 {
+    min-height: 100%;
+    background-color: rgb(236,207,71);
+    position: relative;
+    display: block;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    
+}
+
+.space {
+	height: 10%;
+}
+
+.prices p {
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+
+ .row {
+ 	margin-bottom: 30px;
+ }
+
+ .row .first {
+ 	margin-top: 20px;
+ }
+
+
+.arrow {
+    /*all: initial!important;
+    width: 100%!important;
+    height: auto!important;*/
+    width: 20%;
+    position: absolute;
+    display: block;
+    bottom:0;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0;
+    left: 0;
+}
+
+#wrapper2 {
+	background-image: url("Automat.jpg");
+	background-color: black;
+	background-repeat: repeat;
+	background-position: center;
+	background-attachment: bottom;
+	background-size: 400px 600px;
+	padding: 50px;
+	display: block;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#wrapper3 {
+	background-color: rgb(236,207,71);
+	background-image: url("Train02.png");
+	background-color: black;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 50px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+a, a:hover, a:focus {
+	color:#FFDC2E;
+	outline: none;
+}
+.yellow {
+	color:#FFDC2E;
+}
+
+#timetable .row .box {
+	border-bottom: 1px solid white;
+	margin: -5px;
+	
+
+}
+
+#wrapper3 .row {
+	margin-bottom: 15px;
+}
+
+.timedesc {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.row-centered {
+	text-align: center;
+	display: block;
+}
+
+.col-centered {
+	display: inline-block;
+	float: none;
+}
+
+.bold {
+	font-weight: 900;
+}

@@ -1,0 +1,18 @@
+<div id="timetable">
+			<% @list_time.each_with_index do |n,i| %>
+				<div class="row row-centered">
+					<div class="box col-xs-3 col-centered"> <%= n %> </div>
+					<%= content_tag :div,
+									'dummy',
+									:class => "box waiters#{i} col-xs-3 col-centered",
+									:data => {:rubyvar => @array_waiters[i].number_waiting }
+									%>
+					<%= link_to new_index_url(:waiting => @array_waiters[i].id), :method => :get, :remote => true do %>
+					<%= content_tag :div,
+									'I WANT TO SPLIT!',
+									:class => "box col-xs-3 bold col-centered split_button split_button#{i} "
+									%>
+					<% end %>
+				</div>
+			<% end %> 
+</div>

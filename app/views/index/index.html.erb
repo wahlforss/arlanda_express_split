@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>splitify</title>
+</head>
+<body>
+<div id="wrapper1">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="row">
+					<h2 class="col-xs-12 first bold">Arlanda Express is cheaper if you split the fare</h2>
+				</div>
+				<div class="space"></div>
+				<div class="row">
+					<h2 class="col-xs-12 text-center">Price per person</h2>
+				</div>
+				<div class="row prices">
+					<div class="col-xs-12">
+						<div class="row">
+							<img class="col-xs-4" src="person4.png">
+							<p class="col-xs-2">125 kr</p>
+							<img class="col-xs-4" src="person3.png">
+							<p class="col-xs-2">133 kr</p>
+						</div>
+						<div class="row">
+							<img class="col-xs-4" src="person2.png">
+							<p class="col-xs-2">150 kr</p>
+							<img class="col-xs-4 one" src="person1.png">
+							<p class="col-xs-2">280 kr</p>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				</div>
+
+			</div>
+			<img class="arrow" src="arrow.png">
+		</div>
+</div>
+
+		
+	
+	<div id="wrapper2">
+	<div class="container">
+		<div class="row">
+			<h3 class="col-xs-12 first bold">This website makes it easier to split the Arlanda Express fare with strangers.</h3>
+		</div>
+		<div class="row">
+			<h3>Choose the time of your train and click <span class="bold yellow"> SPLIT</span>.</h3>
+		</div>
+		<div class="row">
+			<h3>The number besides the departure is the people already willing to split the fare.</h3>
+		</div>
+		<div class="row">
+			<h3>Meet up by the cashier 10 minutes before departure .</h3>
+		</div>
+		<div class="row">
+			<h3>Split the fare with cash or Swish.</h3>
+		</div>
+		<div class="row">
+			<h3 class="bold">Save more than 130 SEK.</h3>
+		</div>
+		</div>
+	</div>
+	</div>
+	<div id="wrapper3">
+		<br>
+		<div class="container">
+			<div class="row">
+				<p class="timedesc col-xs-3 col-centered">Departure from Stockholm</p>
+				<p class="timedesc col-xs-3 col-centered">Number of splitters</p>
+				<p class="timedesc col-xs-3 col-centered"></p>
+			</div>
+			<%= render partial: "timetable" %>
+		</div>
+	</div>
+</body>
+</html>
