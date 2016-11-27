@@ -19,20 +19,8 @@ $(function(){
 	}
 });
 
-// Height of space to center prices in wrapper1
 
-$(function(){ 
-
-	var w = $('#wrapper1').width()
-	$('.space').height(w*0.2);
-	if(w > 800) {
-		$('.space').height(20);
-
-	}
-
-});
-
-
+//arrow animation
 function goToByScroll(id) {
 	$('html,body').animate({
 		scrollTop: $('#' + id).offset().top},
