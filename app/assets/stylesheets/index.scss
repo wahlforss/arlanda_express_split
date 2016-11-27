@@ -18,7 +18,7 @@ body, html {
     position: relative;
     display: block;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-    background-image: url("arlanda-express.png");
+    background-image: image-url("arlanda-express.png");
 	background-color: black;
 	background-repeat: no-repeat;
 	background-attachment: center;
@@ -58,7 +58,7 @@ h2 {
 }
 
 #wrapper2 {
-	background-image: url("Automat.jpg");
+	background-image: image-url("Automat.jpg");
 	background-color: black;
 	background-repeat: repeat;
 	background-position: center;
@@ -73,7 +73,7 @@ h3 {
 }
 
 #wrapper3 {
-	background-image: url("Train02.png");
+	background-image: image-url("Train02.png");
 	background-color: black;
 	background-repeat: repeat;
 	background-attachment: fixed;
