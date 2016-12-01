@@ -1,8 +1,6 @@
 class IndexController < ApplicationController
 	def index
 		@@items = 10
-		Timetable.first.get_info
-		Timetable.first.new_time
 		@waiting = Waiting.first
 		@timer = Timetable.first
 		@list_time = []
