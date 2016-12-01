@@ -14,10 +14,10 @@ class Waiting < ApplicationRecord
 	def self.shift_waitings
 		#shifts time for all waiting models when a train has departed 
 		@@array_waiters = []
-		self.all[0..10].each do |n|
+		self.all[0..8].each do |n|
 			@@array_waiters << n
 		end
-		10.times do |n|
+		8.times do |n|
 			@@array_waiters[n].number_waiting = @@array_waiters[n+1].number_waiting
 			@@array_waiters[n].save!
 			@@array_waiters[n+1].save!
