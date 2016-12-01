@@ -5,11 +5,12 @@ $(function(){
 		var counter = $(elem).data('rubyvar')
 		$(elem).text(counter)
 		var button = '.split_button' + i
-		$(button).click(function(){
+		$(button).one("click", function(){
 			var id = $(this).attr('class').slice(-2,-1)
 			var elem1 = '.waiters' + id
 			counter = parseInt($(elem1).text()) + 1
 			$(elem1).text(counter)
+			$('a').addClass("no_link")
 			swal(
 				'Great!',
 				'Meet up by the cashier 10 minutes before departure to split the fare!',
