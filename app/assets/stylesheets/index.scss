@@ -48,7 +48,7 @@ h2 {
     width: 100%!important;
     height: auto!important;*/
     height: auto;
-    position: relative;
+    position: absolute;
     display: block;
     bottom:0;
     margin-right: auto;
@@ -183,4 +183,8 @@ a:hover {
    #wrapper1 {
    	background-position-x: -200px;
    }
+   .space {
+    margin-bottom: 0px;
+   }
+
 }
