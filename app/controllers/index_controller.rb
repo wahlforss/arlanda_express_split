@@ -10,8 +10,8 @@ class IndexController < ApplicationController
 			end
 		end
 		@array_waiters = []
-		Waiting.all[0..@@items].each do |n|
-			@array_waiters << n
+		9.times do |n|
+			@array_waiters << Waiting.find(id = (n+1))
 		end
 	end
 	def new
