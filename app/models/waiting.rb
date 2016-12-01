@@ -14,7 +14,7 @@ class Waiting < ApplicationRecord
 	def self.shift_waitings
 		#shifts time for all waiting models when a train has departed 
 		@@array_waiters = []
-		8.times do |n|
+		9.times do |n|
 			@@array_waiters << Waiting.find(id = (n+1))
 		end
 		8.times do |n|
